@@ -181,3 +181,24 @@ img {
     width: 120px;
 }
 
+#photo13 {
+  position: absolute;
+  right: 0;
+    top: 1420px;
+    width: 120px;
+}
+
+#photo14 {
+  position: absolute;
+  left: 0;
+    top: 1300px;
+    width: 120px;
+}
+
+/* #photo15 {
+  position: absolute;
+  right: 0;
+    top: 925px;
+    width: 120px;
+} */
+

@@ -1,0 +1,87 @@
+header h1 { 
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main p {
+   text-align: center;
+   text-decoration: underline;
+   font-size:larger;
+   background-color: #f0f8ff;
+}
+
+body {
+  border-color: #e0ffff;
+  border-width: 20px;
+  border-left: 200px #e0ffff solid;
+  border-right: 200px #e0ffff solid;
+  padding:30px;
+}
+
+.cheakbox {
+  width:100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.property {
+  padding-top: 30px;
+}
+
+#Horse-Needs {
+  margin-top: 30px;
+}
+
+#Horse {
+  margin-top: 30px;
+}
+
+#You {
+  margin-top: 30px;
+}
+
+#daily {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  list-style: disc;
+  margin: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
+#name {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#Money-Making {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+div li {
+  margin-top: 20px;
+  text-align: center;
+  list-style: none; 
+}
+
+
+#links {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#tips {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

@@ -12,14 +12,14 @@ main p {
    text-align: center;
    text-decoration: underline;
    font-size:larger;
-   background-color: #f0f8ff;
+   background-color: #bef8ff;
 }
 
 body {
-  border-color: #e0ffff;
+  border-color: #fbf8e7;
   border-width: 20px;
-  border-left: 200px #e0ffff solid;
-  border-right: 200px #e0ffff solid;
+  border-left: 200px 		#2c2c2c solid;
+  border-right: 200px 	#2c2c2c solid;
   padding:30px;
 }
 
@@ -85,3 +85,99 @@ div li {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+img {
+  width:23%;
+  margin:20px;
+  text-align: center;
+  border-color: black;
+  border-width: 7px;
+  border-style: ridge;
+  padding: 10px;
+}
+
+#photo1 {
+  position: absolute;
+  left: 0;
+    top: 220px;
+    width: 120px;
+}
+
+#photo2 {
+  position: absolute;
+  right: 0;
+   top: 220px;
+    width: 120px;
+}
+
+#photo3 {
+  position: absolute;
+  right: 0;
+    top: 0;
+    width: 120px;
+}
+
+#photo4 {
+  position: absolute;
+  left: 0;
+    top: 455px;
+    width: 120px;
+}
+
+#photo5 {
+  position: absolute;
+  right: 0;
+    top: 455px;
+    width: 120px;
+}
+
+#photo6 {
+  position: absolute;
+  left: 0;
+    top: 690px;
+    width: 120px;
+}
+
+#photo7 {
+  position: absolute;
+  right: 0;
+    top: 690px;
+    width: 120px;
+}
+
+#photo8 {
+  position: absolute;
+  left: 0;
+    top: 0;
+    width: 120px;
+}
+
+#photo9 {
+  position: absolute;
+  right: 0;
+    top: 1180px;
+    width: 120px;
+}
+
+
+#photo10 {
+  position: absolute;
+  left: 0;
+    top: 1150px;
+    width: 120px;
+}
+
+#photo11 {
+  position: absolute;
+  right: 0;
+    top: 925px;
+    width: 120px;
+}
+
+#photo12 {
+  position: absolute;
+  left: 0;
+    top: 925px;
+    width: 120px;
+}
+

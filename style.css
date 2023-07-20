@@ -95,6 +95,25 @@ img {
   padding: 10px;
 }
 
+#photoLeft {
+  position: absolute;
+  left: 0;
+  top: 220px;
+  width: 120px;
+}
+
+#photoLeft img,
+#photoRight img {
+  width: 100%;
+}
+
+#photoRight {
+  position: absolute;
+  right: 0;
+  top: 220px;
+  width: 120px;
+}
+
 #photo1 {
   position: absolute;
   left: 0;
@@ -192,17 +211,3 @@ img {
   top: 1300px;
   width: 120px;
 }
-
-/* #photo16 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 120px;
-}
-
-#photo17 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 120px;
-} */

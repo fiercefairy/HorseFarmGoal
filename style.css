@@ -211,3 +211,19 @@ img {
   top: 1300px;
   width: 120px;
 }
+
+.hide {
+  display:none;
+}
+
+.display {
+  display:block;
+}
+
+.tipsDiv{
+  margin-bottom: 30px;
+}
+
+.HorseShoppingDiv{
+  margin-bottom: 30px;
+}

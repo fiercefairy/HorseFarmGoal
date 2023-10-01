@@ -16,14 +16,11 @@ main p {
 }
 
 body {
-  border-color: #fbf8e7;
-  border-width: 20px;
-  border-left: 200px #2c2c2c solid;
-  border-right: 200px #2c2c2c solid;
-  padding: 30px;
+  padding:0;
+  margin:0;
 }
 
-.cheakbox {
+.checkbox {
   width: 100%;
   text-align: center;
   padding-top: 20px;
@@ -114,104 +111,6 @@ img {
   width: 120px;
 }
 
-#photo1 {
-  position: absolute;
-  left: 0;
-  top: 220px;
-  width: 120px;
-}
-
-#photo2 {
-  position: absolute;
-  right: 0;
-  top: 220px;
-  width: 120px;
-}
-
-#photo3 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 120px;
-}
-
-#photo4 {
-  position: absolute;
-  left: 0;
-  top: 455px;
-  width: 120px;
-}
-
-#photo5 {
-  position: absolute;
-  right: 0;
-  top: 455px;
-  width: 120px;
-}
-
-#photo6 {
-  position: absolute;
-  left: 0;
-  top: 690px;
-  width: 120px;
-}
-
-#photo7 {
-  position: absolute;
-  right: 0;
-  top: 690px;
-  width: 120px;
-}
-
-#photo8 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 120px;
-}
-
-#photo9 {
-  position: absolute;
-  right: 0;
-  top: 1180px;
-  width: 120px;
-}
-
-#photo10 {
-  position: absolute;
-  left: 0;
-  top: 1150px;
-  width: 120px;
-}
-
-#photo11 {
-  position: absolute;
-  right: 0;
-  top: 925px;
-  width: 120px;
-}
-
-#photo12 {
-  position: absolute;
-  left: 0;
-  top: 925px;
-  width: 120px;
-}
-
-#photo13 {
-  position: absolute;
-  right: 0;
-  top: 1420px;
-  width: 120px;
-}
-
-#photo14 {
-  position: absolute;
-  left: 0;
-  top: 1300px;
-  width: 120px;
-}
-
 .hide {
   display:none;
 }
@@ -220,10 +119,59 @@ img {
   display:block;
 }
 
-.tipsDiv{
+.HorseShoppingDiv{
   margin-bottom: 30px;
 }
 
-.HorseShoppingDiv{
-  margin-bottom: 30px;
+
+/** new hotness **/
+
+nav {
+  text-align: center;
+}
+
+nav button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #c1bfff;
+  border-color: #2c2c2c;
+  border-width: 5px;
+  border-style: ridge;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav button a {
+  text-decoration: none;
+  color: black;
+}
+
+nav button[disabled] {
+  background-color: #2c2c2c;
+  color: #c1bfff;
+}
+
+#galleryLeft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+}
+#galleryRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+}
+
+.gallery img {
+  width: 50%;
+  margin: 20px;
+  text-align: center;
+  border-color: black;
+  border-width: 7px;
+  border-style: ridge;
+}
+#content {
+  margin: 0 150px;
 }

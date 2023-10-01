@@ -12,12 +12,30 @@ main p {
   text-align: center;
   text-decoration: underline;
   font-size: larger;
-  background-color: #c1bfff;
+  /* make a gradient background color that goes from white to #ffecb3 and back to white at the edges */
+  background-image: linear-gradient(to right, white, #ffecb3, white);
+}
+/* depending on body season class, style main p to have a different color background gradient */
+
+body.spring main p {
+  background-image: linear-gradient(to right, white, #fac2ff, white);
+}
+
+body.summer main p {
+  background-image: linear-gradient(to right, white, #ffffb3, white);
+}
+
+body.fall main p {
+  background-image: linear-gradient(to right, white, #ffecb3, white);
+}
+
+body.winter main p {
+  background-image: linear-gradient(to right, white, #b3e7ff, white);
 }
 
 body {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .checkbox {
@@ -112,17 +130,16 @@ img {
 }
 
 .hide {
-  display:none;
+  display: none;
 }
 
 .display {
-  display:block;
+  display: block;
 }
 
-.HorseShoppingDiv{
+.HorseShoppingDiv {
   margin-bottom: 30px;
 }
-
 
 /** new hotness **/
 
@@ -133,12 +150,30 @@ nav {
 nav button {
   margin: 10px;
   padding: 10px;
-  background-color: #c1bfff;
+  background-color: #ffecb3;
   border-color: #2c2c2c;
   border-width: 5px;
   border-style: ridge;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* depending on the season make the nav button background color change */
+
+body.spring nav button {
+  background-color: #fac2ff;
+}
+
+body.summer nav button {
+  background-color: #ffffb3;
+}
+
+body.fall nav button {
+  background-color: #ffecb3;
+}
+
+body.winter nav button {
+  background-color: #b3e7ff;
 }
 
 nav button a {
@@ -148,30 +183,57 @@ nav button a {
 
 nav button[disabled] {
   background-color: #2c2c2c;
-  color: #c1bfff;
+  color: #ffecb3;
+}
+
+/* depending on the season make the disabled nav button background color change */
+
+body.spring nav button[disabled] {
+  background-color: #2c2c2c;
+  color: #fac2ff;
+}
+
+body.summer nav button[disabled] {
+  background-color: #2c2c2c;
+  color: #ffffb3;
+}
+
+body.fall nav button[disabled] {
+  background-color: #2c2c2c;
+  color: #ffecb3;
+}
+
+body.winter nav button[disabled] {
+  background-color: #2c2c2c;
+  color: #b3e7ff;
 }
 
 #galleryLeft {
-  position: absolute;
   left: 0;
   top: 0;
-  width: 150px;
+  width: 15%;
 }
 #galleryRight {
-  position: absolute;
   right: 0;
   top: 0;
-  width: 150px;
+  width: 15%;
 }
 
+.gallery {
+  position:fixed;
+  background-color: #2c2c2c;
+  height: 100%;
+  text-align: center;
+}
 .gallery img {
   width: 50%;
-  margin: 20px;
-  text-align: center;
+  margin: 5%;
   border-color: black;
-  border-width: 7px;
+  border-width: 5px;
   border-style: ridge;
+  display: inline-block;
 }
 #content {
-  margin: 0 150px;
+  top: 0;
+  margin: 20px 15%;
 }

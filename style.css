@@ -237,3 +237,14 @@ body.winter nav button[disabled] {
   top: 0;
   margin: 20px 15%;
 }
+
+main {
+  margin: 0 10px 0 10px;
+}
+
+main section.text{
+margin: 10px 0 5px 0;
+text-decoration: none;
+background-image: none;
+text-align: center;
+}
